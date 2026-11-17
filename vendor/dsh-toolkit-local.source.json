@@ -1,7 +1,7 @@
 {
   "repository": "blueforst/dsh-toolkit-local",
-  "commit": "b463108e4864d0b4a9f122f5ea15425c2169fd6e",
-  "version": "0.1.1-server.1",
+  "commit": "7a5dacef55fd75248c28515fa263bfa27ce9502f",
+  "version": "0.1.3",
   "files": [
     {
       "path": "LICENSE",
@@ -12,20 +12,16 @@
       "sha256": "3d4bb418485f578d38ea2223d7f9cce53fce39046c47379e519a8e3da183069a"
     },
     {
-      "path": "client.js",
-      "sha256": "333ecd6ee59da8c5b2b63ea7636b383b82eb0647e961ae12dac1d53762663591"
-    },
-    {
       "path": "cordis.patch.yml",
-      "sha256": "af024bcd1fd84410ff66cf962246022e490df30268d265ab3305c757a68763b8"
+      "sha256": "63ebdd1b2ee7a82202607fac1384edbcf4a6444c00bca57444121bb8e83ce159"
     },
     {
       "path": "index.js",
-      "sha256": "facb66457b319ea0845ea5150f722dad1d181ac3d82bfe2a10cba6b52672dd20"
+      "sha256": "5a8ff2eb3dba7cb63c4834af8f829cee86e5970e591a92208e376b45736ced43"
     },
     {
       "path": "package.json",
-      "sha256": "dcf3043c64c69063548d48c7af0a7612563cc618121c095cc2ece2bf682c110b"
+      "sha256": "343fab007ce33a80d368119182c52c8510569c397cd56fae77fe662632b83292"
     },
     {
       "path": "plugins/opencode-go-quota/client.js",
@@ -37,7 +33,7 @@
     },
     {
       "path": "plugins/opencode-go-quota/package.json",
-      "sha256": "ccd34825de45a97b792105fff4ead458ed615591cc1f8e207b622d7bc920b75d"
+      "sha256": "6dbf38460005a544959794300ad1de8eb84a63dd8b6c6f31b57a8645e9585fef"
     },
     {
       "path": "plugins/session-billing/client.js",
@@ -49,11 +45,15 @@
     },
     {
       "path": "plugins/session-billing/package.json",
-      "sha256": "893255a2b28a52729862aad57a5050f60659265dec6b2bb31783466b1e8ff93e"
+      "sha256": "c69ce6ec8503fd1c88e58cfa8372df26714dc11b0a681586473c9c6e1079ef61"
+    },
+    {
+      "path": "plugins/session-billing/pi-vertex-pricing.json",
+      "sha256": "937edb2a9a7c3f31e1ecd2c1341d0b89b5e2110e2a4c390411dff6eafd396e4d"
     },
     {
       "path": "plugins/session-billing/projection.js",
-      "sha256": "e02c6443d605a7044d03eaf8718faecd2e0bdbc01790882b670665a6d0196e4c"
+      "sha256": "854d525cb98ab9f2e8e20fe066324d0987e1cde0ae817cc68e48db507a5fc44c"
     },
     {
       "path": "plugins/session-billing/runtime.js",

@@ -97,8 +97,6 @@ window.__ModuleLoader__.load({
     return { apply, inject: ['slots'] };
   })(require),
 (require => {
-    const modules = [
-(require => {
     const React = require('react');
     const h = React.createElement;
     const percent = value => Number.isFinite(value) ? Math.max(0, Math.min(100, value)) : null;
@@ -291,9 +289,6 @@ window.__ModuleLoader__.load({
       ctx.slots.inject('conversation.composer.dock', () => ctx.slots.register({ name: 'conversation.composer.dock', id: 'session-cost', order: -1, label: '会话费用' }, SessionBilling));
     }
     return { apply, inject: ['slots'] };
-  })(require)
-    ];
-    return { inject: ['slots'], apply(ctx) { for (const module of modules) module.apply(ctx); } };
   })(require)
     ];
     return { inject: ['slots'], apply(ctx) { for (const module of modules) module.apply(ctx); } };
