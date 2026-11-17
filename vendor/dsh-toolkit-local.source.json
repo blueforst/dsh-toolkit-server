@@ -1,6 +1,6 @@
 {
   "repository": "blueforst/dsh-toolkit-local",
-  "commit": "7a5dacef55fd75248c28515fa263bfa27ce9502f",
+  "commit": "757f22610c7de0122ddbe5d675fc871c4d081a3a",
   "version": "0.1.3",
   "files": [
     {
@@ -37,7 +37,7 @@
     },
     {
       "path": "plugins/session-billing/client.js",
-      "sha256": "696ac436deeaee9374dff1e621a51b77ec7eb717d13ac14612ba8057dcad3f86"
+      "sha256": "e06cce4325c26cb751845f8d9796bb3b30b0d3846a7ba489e7126e453245a324"
     },
     {
       "path": "plugins/session-billing/index.js",
