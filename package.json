@@ -1,6 +1,6 @@
 {
   "name": "@forst/dsh-toolkit",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "DSH Linux 服务器插件包：固定复用本机版的 Go 额度与会话费用，附服务器资源监控及可选浏览器／桌面部署配方。",
   "type": "module",
   "main": "./index.js",
